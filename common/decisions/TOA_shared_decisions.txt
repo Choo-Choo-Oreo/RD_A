@@ -1620,18 +1620,23 @@ improving_our_army_category = {
 								has_tech = improved_small_airframe
 							}
 							create_equipment_variant = {
-								name = "P-40"
+								name = "P-40 Warhawk"
 								type = small_plane_airframe_2
 								allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
 								modules = {
 									fixed_main_weapon_slot = heavy_mg_4x
 									fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
-									fixed_auxiliary_weapon_slot_2 = bomb_locks
+									fixed_auxiliary_weapon_slot_2 = empty	
+									fixed_auxiliary_weapon_slot_3 = empty	
 									engine_type_slot = engine_3_1x
-									fixed_auxiliary_weapon_slot_4 = drop_tanks
-									special_type_slot_2 = high_octane_fuel_small
-									special_type_slot_7 = aircraft_reinforced_construction_small
-									special_type_slot_8 = reflex_gunsight_1
+									special_type_slot_1 = drop_tanks
+									special_type_slot_2 = supercharger 
+									special_type_slot_3 = high_octane_fuel_small
+									special_type_slot_4 = armor_plate_small
+									special_type_slot_5 = water_injection_small
+									special_type_slot_6 = empty
+									special_type_slot_7 = empty
+									special_type_slot_8 = empty
 									special_type_slot_9 = birdcage_canopy
 								}
 							}
@@ -1640,7 +1645,7 @@ improving_our_army_category = {
 									producer = USA
 									type = small_plane_airframe
 									amount = 100
-									variant_name = "P-40"
+									variant_name = "P-40 Warhawk"
 								}
 							}
 						}
@@ -1683,8 +1688,8 @@ improving_our_army_category = {
 							fixed_main_weapon_slot = bomb_locks
 							fixed_auxiliary_weapon_slot_1 = bomb_locks
 							engine_type_slot = engine_3_2x
-							fixed_auxiliary_weapon_slot_4 = drop_tanks
-							special_type_slot_1 = bomb_sight_1
+							special_type_slot_1 = drop_tanks
+							special_type_slot_2 = bomb_sight_1
 							special_type_slot_2 = radio_navigation_1
 							special_type_slot_3 = armor_plate_medium
 							special_type_slot_9 = medium_glass_nose

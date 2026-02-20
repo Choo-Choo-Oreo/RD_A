@@ -1,5 +1,7 @@
-[h1]Reworked Air Designer: Continued[/h1]
-This is an updated version of Freezer's "Reworked Air Designer," brought up to date for the latest version of Hearts of Iron IV. 
+[h1]Reworked Designer: Air Continued[/h1]
+This is an updated version of Freezer's "Reworked Air Designer," brought up to date for the latest version of Hearts of Iron IV.
+
+[url=steamcommunity.com/sharedfiles/filedetails/?id=2948174914] Reworked Air Designer Original.[/url]
 
 [h2]Note on Development[/h2]
 The original author, Freezer, has been inactive for several months. I have stepped in to maintain or expand this mod to ensure it remains playable for the community. If Freezer returns or wishes for this version to be removed, I will comply immediately.

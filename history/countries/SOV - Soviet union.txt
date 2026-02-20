@@ -114,6 +114,7 @@ recruit_character = SOV_sergey_gorshkov
 recruit_character = SOV_stepan_krasovsky
 recruit_character = SOV_vasily_blyukher
 recruit_character = SOV_vasily_chuykov
+recruit_character = SOV_aleksandr_cherepanov
 recruit_character = SOV_vasily_kuznetsov
 recruit_character = SOV_vladimir_kasatonov
 recruit_character = SOV_vladimir_tributs
@@ -579,8 +580,10 @@ set_variable = { SOV_defense_industry_army_artillery_defence_factor = 0 } #-> Mi
 #THE RED ARMY NATIONAL SPIRIT VARS
 set_variable = { SOV_the_red_army_mobilization_laws_cost_factor = -0.1 }
 set_variable = { SOV_the_red_army_army_org_factor = -0.15 } # -> Restore Cossack Units / Cohsesion First #Meant to represent disgruntledness
-set_variable = { SOV_the_red_army_experience_gain_army_factor = -0.1 }
 set_variable = { SOV_the_red_army_experience_loss_factor = 0.25 }
+set_variable = { SOV_the_red_army_mastery_loss_factor = -0.15 }
+set_variable = { SOV_the_red_army_mastery_loss_factor_inverted = SOV_the_red_army_mastery_loss_factor }
+multiply_variable = { SOV_the_red_army_mastery_loss_factor_inverted = -1 }
 
 set_variable = { SOV_the_red_army_mobilization_speed = 0 } #-> Strengthen the Mobilization Plan
 set_variable = { SOV_the_red_army_conscription_factor = 0 } #-> Strengthen the Mobilization Plan
@@ -788,12 +791,13 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	paratroopers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
 }
+
+set_grand_doctrine = mass_assault
+set_grand_doctrine = new_fleet_in_being
 
 if = {
 	limit = {
@@ -1194,15 +1198,10 @@ add_ideas = {
 		paratroopers = 1
 
 		#doctrines
-		pocket_defence = 1
-		defence_in_depth = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
-
 		#Air
-		formation_flying = 1		
-		dive_bombing = 1
-		direct_ground_support = 1
+		#formation_flying = 1		
+		#dive_bombing = 1
+		#direct_ground_support = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -1226,6 +1225,33 @@ add_ideas = {
 		concentrated_industry2 = 1
 		concentrated_industry3 = 1
 	}
+
+set_grand_doctrine = mass_assault
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_battlefield_support
+
+set_sub_doctrine = large_unit_tactics
+add_mastery = {
+    amount = 200
+    sub_doctrine = large_unit_tactics
+}
+set_sub_doctrine = fire_concentration
+add_mastery = {
+    amount = 100
+    sub_doctrine = fire_concentration
+}
+set_sub_doctrine = deep_battle
+add_mastery = {
+    amount = 100
+    sub_doctrine = deep_battle
+}
+set_sub_doctrine = air_subdoctrine_dogfighting_mastery
+add_mastery = {
+    amount = 75
+    sub_doctrine = air_subdoctrine_dogfighting_mastery
+}
+
+
 	
 	complete_special_project = {
 		project = sp:sp_air_radar
@@ -1288,7 +1314,7 @@ set_popularities = {
 	communism = 88
 }
 
-create_faction = Comintern
+create_faction_from_template = faction_template_comintern
 add_to_faction = SOV
 add_to_faction = MON
 add_to_faction = TAN

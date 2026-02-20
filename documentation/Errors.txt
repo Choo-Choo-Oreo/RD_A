@@ -1,0 +1,45 @@
+Texture Handler encountered missing texture file: gfx/interface/equipmentdesigner/planes/ast/ast_cas_0.dds
+Couldn't find texture file: 'gfx/interface/equipmentdesigner/planes/ast/ast_cas_0.dds'
+Error initialising texture: gfx/interface/equipmentdesigner/planes/ast/ast_cas_0.dds for spritetype GFX_TC_small_plane_cas_airframe_0_ast
+Texture Handler encountered missing texture file: gfx/interface/equipmentdesigner/planes/chi/chi_cas_3.dds
+Couldn't find texture file: 'gfx/interface/equipmentdesigner/planes/chi/chi_cas_3.dds'
+Error initialising texture: gfx/interface/equipmentdesigner/planes/chi/chi_cas_3.dds for spritetype GFX_TC_small_plane_cas_airframe_3_chi
+Texture Handler encountered missing texture file: gfx/interface/equipmentdesigner/planes/ast/ast_tac_bomber_0.dds
+Couldn't find texture file: 'gfx/interface/equipmentdesigner/planes/ast/ast_tac_bomber_0.dds'
+Error initialising texture: gfx/interface/equipmentdesigner/planes/ast/ast_tac_bomber_0.dds for spritetype GFX_TC_medium_plane_airframe_0_ast
+Texture Handler encountered missing texture file: gfx/interface/equipmentdesigner/planes/fin/fin_fighter_2.dds
+Couldn't find texture file: 'gfx/interface/equipmentdesigner/planes/fin/fin_fighter_2.dds'
+Error initialising texture: gfx/interface/equipmentdesigner/planes/fin/fin_fighter_2.dds for spritetype GFX_TC_small_plane_airframe_2_fin
+Texture Handler encountered missing texture file: gfx/interface/equipmentdesigner/planes/modules/plane_special_module_gunsight_category.dds
+Couldn't find texture file: 'gfx/interface/equipmentdesigner/planes/modules/plane_special_module_gunsight_category.dds'
+Error initialising texture: gfx/interface/equipmentdesigner/planes/modules/plane_special_module_gunsight_category.dds for spritetype GFX_EMI_plane_special_module_gunsight
+Texture Handler encountered missing texture file: gfx/interface/equipmentdesigner/planes/ger/ger_cv_cas_4.dds
+Couldn't find texture file: 'gfx/interface/equipmentdesigner/planes/ger/ger_cv_cas_4.dds'
+Error initialising texture: gfx/interface/equipmentdesigner/planes/ger/ger_cv_cas_4.dds for spritetype GFX_TC_cv_small_plane_cas_airframe_4_ger
+Texture Handler encountered missing texture file: gfx/interface/equipmentdesigner/planes/eng/eng_cv_cas_0.dds
+Couldn't find texture file: 'gfx/interface/equipmentdesigner/planes/eng/eng_cv_cas_0.dds'
+Error initialising texture: gfx/interface/equipmentdesigner/planes/eng/eng_cv_cas_0.dds for spritetype GFX_TC_cv_small_plane_cas_airframe_0_eng
+Error: "A limit for module jet_assisted_take_off already exists: }, near line: 490" in file: "common/units/equipment/plane_airframes.txt" near line: 490
+Error: "A limit for module jet_assisted_take_off already exists: }, near line: 2180" in file: "common/units/equipment/plane_airframes.txt" near line: 2180
+Duplicate default module assignment to slot "fixed_main_weapon_slot", overwriting previously assigned module with "empty" for equipment type "cv_small_plane_airframe".
+Duplicate default module assignment to slot "fixed_auxiliary_weapon_slot_1", overwriting previously assigned module with "empty" for equipment type "cv_small_plane_airframe".
+Duplicate default module assignment to slot "engine_type_slot", overwriting previously assigned module with "engine_1_1x" for equipment type "cv_small_plane_airframe".
+Duplicate default module assignment to slot "special_type_slot_1", overwriting previously assigned module with "empty" for equipment type "cv_small_plane_airframe".
+Duplicate default module assignment to slot "special_type_slot_2", overwriting previously assigned module with "empty" for equipment type "cv_small_plane_airframe".
+Duplicate default module assignment to slot "special_type_slot_8", overwriting previously assigned module with "reflex_gunsight_1" for equipment type "cv_small_plane_airframe".
+Duplicate default module assignment to slot "special_type_slot_9", overwriting previously assigned module with "open_canopy" for equipment type "cv_small_plane_airframe".
+Error: "Malformed token: plane_AT_reliability_upgrade, near line: 284" in file: "common/units/equipment/quad_engine_airframe.txt" near line: 285
+Error: "Invalid subunit category: medium_nav_bomber, near line: 109" in file: "common/units/air.txt" near line: 109
+common/units/air.txt:103-113 'medium_nav_bomber': Airwing sub-units that are not carrier capable must not set 'carrier_air_wing_size'.
+Error: "Invalid module "drop_tanks" attached to slot "special_type_slot_1".: drop_tanks, near line: 3706" in file: "common/decisions/CHI_decisions.txt" near line: 3716
+Error: "Invalid module "drop_tanks" attached to slot "special_type_slot_1".: drop_tanks, near line: 1632" in file: "common/decisions/TOA_shared_decisions.txt" near line: 1642
+Error: "Invalid module "drop_tanks" attached to slot "special_type_slot_1".: drop_tanks, near line: 1691
+Invalid module "bomb_sight_1" attached to slot "special_type_slot_2".: bomb_sight_1, near line: 1692
+Invalid module "medium_glass_nose" attached to slot "special_type_slot_9".: medium_glass_nose, near line: 1695" in file: "common/decisions/TOA_shared_decisions.txt" near line: 1697
+Error: "Invalid module "drop_tanks" attached to slot "special_type_slot_1".: drop_tanks, near line: 848" in file: "common/national_focus/australia.txt" near line: 850
+Error: "Invalid module name for module slot specification.: lmg_defense_turret_1x, near line: 1132" in file: "common/ai_equipment/ENG_planes.txt" near line: 1142
+Error: "Invalid module name for module slot specification.: hmg_defense_turret_1x, near line: 1451
+Invalid module name for module slot specification.: lmg_defense_turret_1x, near line: 1452" in file: "common/ai_equipment/ENG_planes.txt" near line: 1453
+common/ai_equipment/generic_naval.txt:1391: ai design entry carrier_light_1 mentions module slot mid_1_custom_slot that does not exist in equipment ship_hull_carrier_conversion_ca
+invalid database object for effect/trigger: improved_airplane_launcher. use var:var_name to explicitly use variables in effects/triggers
+The game has loc key collisions. Check logs/text.log for more details
