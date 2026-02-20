@@ -11,3 +11,4 @@ dependencies={
 	"Vanilla Navy Rework"
 }
 supported_version="1.17.*"
+path="C:/Users/Orea/Documents/Paradox Interactive/Hearts of Iron IV/mod/RD_A"
