@@ -6,4 +6,5 @@ tags={
 	"Technologies"
 }
 name="Reworked Designer: Air"
+picture="thumbnail.png"
 supported_version="1.17.*"
