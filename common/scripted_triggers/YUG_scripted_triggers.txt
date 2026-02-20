@@ -4,19 +4,19 @@ is_available_fighter_YUG = {
 	OR = {
 		AND = {
 			has_tech = fighter1
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = fighter1}
 			}
 		}
 		AND = {
 			has_tech = fighter2
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = fighter2}
 			}
 		}
 		AND = {
 			has_tech = fighter3
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = fighter3}
 			}
 		}
@@ -40,7 +40,7 @@ is_available_fighter_YUG = {
 		}
 	}
 	NOT = {
-		has_war_with = ROOT
+		has_war_with = YUG
 	}
 }
 
@@ -48,19 +48,19 @@ is_available_heavy_fighter_YUG = {
 	OR = {
 		AND = {
 			has_tech = heavy_fighter1
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = heavy_fighter1}
 			}
 		}
 		AND = {
 			has_tech = heavy_fighter2
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = heavy_fighter2}
 			}
 		}
 		AND = {
 			has_tech = heavy_fighter3
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = heavy_fighter3}
 			}
 		}
@@ -84,7 +84,7 @@ is_available_heavy_fighter_YUG = {
 		}
 	}
 	NOT = {
-		has_war_with = ROOT
+		has_war_with = YUG
 	}
 }
 
@@ -92,19 +92,19 @@ is_available_cas_YUG = {
 	OR = {
 		AND = {
 			has_tech = CAS1
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = CAS1}
 			}
 		}
 		AND = {
 			has_tech = CAS2
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = CAS2}
 			}
 		}
 		AND = {
 			has_tech = CAS3
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = CAS3}
 			}
 		}
@@ -128,7 +128,7 @@ is_available_cas_YUG = {
 		}
 	}
 	NOT = {
-		has_war_with = ROOT
+		has_war_with = YUG
 	}
 }
 
@@ -136,19 +136,19 @@ is_available_tac_YUG = {
 	OR = {
 		AND = {
 			has_tech = tactical_bomber1
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = tactical_bomber1}
 			}
 		}
 		AND = {
 			has_tech = tactical_bomber2
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = tactical_bomber2}
 			}
 		}
 		AND = {
 			has_tech = tactical_bomber3
-			ROOT = { 
+			YUG = { 
 				NOT = { has_tech = tactical_bomber3}
 			}
 		}
@@ -172,7 +172,7 @@ is_available_tac_YUG = {
 		}
 	}
 	NOT = {
-		has_war_with = ROOT
+		has_war_with = YUG
 	}
 }
 

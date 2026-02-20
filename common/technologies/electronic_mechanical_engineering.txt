@@ -193,7 +193,7 @@ technologies = {
 		
 		enable_equipment_modules = { 
 			tank_radio_3
-			lc_radio_3 #Module for Land Cruiser			
+			lc_radio_3 #Module for Land Cruiser
 		}
 		
 		ai_will_do = {
@@ -1063,7 +1063,7 @@ technologies = {
 	advanced_fire_control_system = {
 
 		enable_equipment_modules = { 
-			ship_fire_control_system_3			
+			ship_fire_control_system_3
 		}
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -1346,7 +1346,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			rocket_engine_1
-			bba_aa_rocket			
 		}
 		
 		#rocket_artillery = { # Effects moved to the next rocket tech
@@ -1405,7 +1404,7 @@ technologies = {
 		}
 		
 		enable_equipment_modules = {
-			guided_anti_ship_missile			
+			guided_anti_ship_missile
 		}
 		guided_missile = { 
 			air_range = 0.25
@@ -1658,6 +1657,7 @@ technologies = {
 			jet_technology
 		}
 	}
+	
 	atomic_research = {
 
 		research_speed_factor = 0.04
@@ -1702,6 +1702,12 @@ technologies = {
 			modifier = {
 				factor = 4
 				tag = USA
+			}
+
+			modifier = {
+				add = 50
+				PHI_SEA = yes
+				has_completed_focus = PHI_weapons_of_war
 			}
 		}
 		
@@ -1903,7 +1909,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			rocket_engine_2
-			bba_aa_rocket			
 		}		
 		
 		path = {

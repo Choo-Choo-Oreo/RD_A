@@ -4,6 +4,8 @@ This is an updated version of Freezer's "Reworked Air Designer," brought up to d
 [h2]Note on Development[/h2]
 The original author, Freezer, has been inactive for several months. I have stepped in to maintain or expand this mod to ensure it remains playable for the community. If Freezer returns or wishes for this version to be removed, I will comply immediately.
 
+[i]The mod is currently in an imperfect state and requires further polish. If you would like to assist with the update process, please reach out via Discord.[/i]
+
 [h1]Information[/h1]
 I'm centralizing everything for my mod collection on a new Discord server. I'll rarely respond to comments, bug reports, or suggestions here. Please use the Discord link for all future requests.
 
