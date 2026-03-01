@@ -1,7 +1,7 @@
 sub_unit_categories = {
 	category_tanks
 	category_light_infantry
-    category_front_line
+	category_front_line
 	category_all_infantry
 	category_support_battalions
 	category_militia
@@ -21,7 +21,6 @@ sub_unit_categories = {
 	category_medium_cas
 	category_medium_nav_bomber
 	category_transport_plane
-	category_cas	
 	category_small_scout_plane
 	category_heavy_scout_plane
 	category_mountaineers

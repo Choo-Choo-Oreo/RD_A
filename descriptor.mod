@@ -8,6 +8,7 @@ tags={
 name="Reworked Designer: Air Continued"
 picture="thumbnail.png"
 dependencies={
+	"The Road to 56"
 	"Vanilla Navy Rework"
 }
 supported_version="1.17.*"
