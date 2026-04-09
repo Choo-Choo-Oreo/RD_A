@@ -473,10 +473,6 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = jet_assisted_take_off
-			count < 2
-		}	
-		module_count_limit = {
 			module = adv_hmg_defense_turret_4_barrels
 			count < 2
 		}
@@ -2160,10 +2156,6 @@ equipments = {
 		}
 		module_count_limit = {
 			module = imp_turret_servos_system
-			count < 2
-		}
-		module_count_limit = {
-			module = jet_assisted_take_off
 			count < 2
 		}
 		module_count_limit = {

@@ -1,0 +1,12 @@
+# If you ever integrate this mod make sure to add this to your main script and not here!
+script_enum_equipment_bonus_type = {
+	# Equipment categories
+
+	# Equipment archetypes & types
+	medium_plane_naval_bomber_airframe
+	medium_plane_naval_bomber_airframe_0
+	medium_plane_naval_bomber_airframe_1
+	medium_plane_naval_bomber_airframe_2
+	medium_plane_naval_bomber_airframe_3
+	medium_plane_naval_bomber_airframe_4
+}
