@@ -2,6 +2,7 @@
 This is an updated version of Freezer's "Reworked Air Designer," brought up to date for the latest version of Hearts of Iron IV.
 
 [url=steamcommunity.com/sharedfiles/filedetails/?id=2948174914] Reworked Air Designer Original.[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3676647538] Kaiserreich Version.[/url]
 [url=steamcommunity.com/sharedfiles/filedetails/?id=3689251282] Road to 56 Version.[/url]
 
 [h2]Note on Development[/h2]
