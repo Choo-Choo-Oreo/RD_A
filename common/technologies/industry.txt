@@ -890,10 +890,10 @@ technologies = {
 			position = { x = 3 y = 2 }
 		}
 		enable_equipment_modules = { 
-		high_octane_fuel_small
-		high_octane_fuel_medium
-		high_octane_fuel_large
-		}		
+			high_octane_fuel_small
+			high_octane_fuel_medium
+			high_octane_fuel_large
+		}
 		categories = {
 			industry
 			synth_resources

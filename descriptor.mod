@@ -11,5 +11,5 @@ dependencies={
 	"The Road to 56"
 	"Vanilla Navy Rework"
 }
-supported_version="1.18.*"
+supported_version="1.19.*"
 remote_file_id="3670152680"
